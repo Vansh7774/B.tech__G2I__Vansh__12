@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    printf("ENTER THE VALUE OF A:");
+    scanf("%d",&a);
+    
+    printf("ENTER THE VALUE OF B:");
+    scanf("%d",&b);
+    
+    printf("ENTER THE VALUE OF C:");
+    scanf("%d",&c);
+    if(a>b){
+        if(a>c)
+        printf("A IS LARGEST");
+        else
+        printf("C is largest");
+    
+    }
+
+    else{
+        if(b>c)
+        printf("B IS GREATEST");
+        else
+        printf("C IS LARGEST");
+    }
+   
+    return 0;
+
+    
+    
+}
