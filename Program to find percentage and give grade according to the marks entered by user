@@ -1,0 +1,35 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+  float a,b,c,d,e,f,sum;
+ 
+   
+  
+    printf("ENTER THE VALUE OF A:");
+    scanf("%f",&a);
+    
+    printf("ENTER THE VALUE OF B:");
+    scanf("%f",&b);
+    
+    printf("ENTER THE VALUE OF C:");
+    scanf("%f",&c);
+   
+    printf("ENTER THE VALUE OF D:");
+    scanf("%f",&d);
+    
+ printf("ENTER THE VALUE OF E:");
+    scanf("%f",&e);
+     sum=a+b+c+d+e;
+     f=(sum/500)*100;
+     
+     if(f>=90)
+     printf("A and %f",f);
+     else if(f>=80)
+     printf("B");
+     else if(f>=60)
+     printf("C");
+     else
+     printf("D");
+             return 0;
+}
