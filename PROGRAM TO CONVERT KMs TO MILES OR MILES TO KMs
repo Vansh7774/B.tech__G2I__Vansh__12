@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main(){
+float d;
+char unit_1='k';
+char unit_2='m';
+char unit_3;
+printf("ENTER THE UNIT OF THE DISTANCE( 1 FOR KILOMETERS AND 2 FOR MILES):");
+scanf("%c",&unit_3);
+
+printf("ENTER THE VALUE OF DISTANCE:");
+scanf("%f",&d);
+
+if (unit_3==unit_1)
+{
+    /* code */
+    d= d*0.62;
+    printf("YOUR DISTANCE IN MILES IS: %.2f",d);
+}
+else if(unit_3==unit_2){
+    d= d*1.60;
+    printf("YOUR DISTANCE IN KILOMETERS IS: %.2f",d);
+
+}
+else{
+    printf("INVALID INPUT!");
+}
+return 0;
+
+}
