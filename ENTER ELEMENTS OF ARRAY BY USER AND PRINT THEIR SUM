@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int i;
+    int a[i],sum=0,n;
+    printf("HOW MANY ELEMENTS YOU WANT TO ENTER IN ARRAY:");
+    scanf("%d",&n);
+    for(i=0;i<n;i++){
+        printf("enter element:");
+        scanf("%d",&a[i]);
+        sum=sum+a[i];
+        
+    }
+    printf("SUM:%d",sum);
+
+    return 0;
+}
