@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(){
+int a;
+int last_dig,rev_dig=0;
+printf("ENTER THE NUMBER:");
+scanf("%d",&a);
+while (a!=0)
+{
+    last_dig=a%10;
+    rev_dig=(rev_dig*10)+last_dig;
+    
+    a=a/10;
+
+}
+printf("REVERSE OF THE NUMBER: %d",rev_dig);
+
+
+    return 0;
+}
