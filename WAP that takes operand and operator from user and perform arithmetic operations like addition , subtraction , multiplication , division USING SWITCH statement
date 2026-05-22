@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main(){
+   int a ,b;
+   char op;
+   printf("ENTER 1st NUMBER:");
+   scanf("%d",&a);
+   printf("ENTER THE 2nd NUMBER:");
+   scanf("%d",&b);
+   printf("ENTER THE OPERATOR:");
+   scanf(" %c",&op);
+   switch (op)
+   {
+   case '+':1
+    printf("ANSWER:%d",a+b);
+    break;
+   case '-':
+   printf("ANSWER:%d",a-b);
+   break;
+   case '*':
+   printf("ANSWER:%d",a*b);
+   break;
+   case '/':
+   printf("ANSWER:%d",a/b);
+   break;
+   default:
+   printf("INVALID OPERATOR!");
+    break;
+   }
+    return 0;
+}
