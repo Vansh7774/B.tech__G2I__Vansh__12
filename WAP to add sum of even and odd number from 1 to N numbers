@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(){
+ int N;
+ int SUM_EVEN=0,SUM_ODD=0;
+
+ printf("ENTER THE NUMBER:");
+ scanf("%d",&N);
+for (int i = 1; i <=N; i++)
+{
+    if (i%2==0)
+    {
+        SUM_EVEN=SUM_EVEN+i;
+    }
+    else{
+        SUM_ODD=SUM_ODD+i;
+    }
+    
+}
+printf("SUM OF EVEN NUMBER:%d\n SUM OF ODD NUMBERS:%d",SUM_EVEN,SUM_ODD);
+
+ 
+    return 0;
+}
