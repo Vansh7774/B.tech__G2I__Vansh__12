@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+int a;
+int last_dig,sum=0;
+printf("ENTER THE NUMBER:");
+scanf("%d",&a);
+while (a!=0)
+{
+    last_dig=a%10;
+    sum+=last_dig;
+    a=a/10;
+
+}
+printf("SUM OF DIGITS: %d",sum);
+
+
+    return 0;
+}
