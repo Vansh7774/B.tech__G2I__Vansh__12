@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+ int a ;
+ int fact=1;
+ printf("ENTER THE NUMBER:");
+ scanf("%d",&a);
+ for (int i = a; i >= 1; i--)
+ {
+    fact=fact*i;
+ }
+ printf("FACTORIAL:%d",fact);
+ 
+    return 0;
+}
