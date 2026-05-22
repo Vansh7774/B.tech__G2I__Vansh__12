@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+ int n;
+int a=0,b=1,c;
+
+ printf("ENTER THE NUMBER:");
+ scanf("%d",&n);
+ printf("FIBONACCI SERIES:");
+ for (int i = 1; i <= n; i++)
+ {
+    printf("  %d\t",a);
+    c=a+b;
+    a=b;
+    b=c;
+ }
+ 
+
+
+ 
+    return 0;
+}
