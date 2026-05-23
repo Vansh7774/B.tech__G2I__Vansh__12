@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main(){
+int sum,last_digit,temp;
+
+for (int i = 1; i <= 100; i++)
+{  int sum=0;
+    temp=i;
+    while (temp>0)
+    { last_digit=temp%10;
+        sum=sum+(last_digit*last_digit*last_digit);
+        temp=temp/10;
+        
+    }
+    if (sum==i)
+    {
+        printf("ARMSTRONG NUMERS:%d\t",i);
+    }
+    
+    
+}
+
+
+    return 0;
+}
